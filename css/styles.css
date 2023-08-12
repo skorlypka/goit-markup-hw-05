@@ -707,7 +707,15 @@ footer {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
 .modal-comment {
+    color: rgba(46, 47, 66, 0.4);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     width: 100%;
     height: 120px;
     background-color: transparent;
@@ -719,8 +727,23 @@ footer {
     resize: none;
 }
 
+.modal-comment:focus {
+    border-color: var(--color-iris);
+}
+
 .modal-input:focus {
     border-color: var(--color-iris);
+}
+
+.checkbox-modal {
+    margin-bottom: 24px;
+}
+
+.label-privacy {
+    counter-reset: var(--color-light-slate);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .is-hidden {
