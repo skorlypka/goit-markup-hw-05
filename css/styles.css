@@ -662,10 +662,17 @@ footer {
     margin-bottom: 16px;
 }
 
+.modal-input-wrap {
+    position: relative;
+}
+
 .modal-icon {
     fill: transparent;
     stroke: var(--color-navy-blue);
-    position: relative;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .label-modal {
@@ -684,6 +691,10 @@ footer {
     margin-bottom: 8px;
     padding-left: 38px;
     padding-right: 16px;
+}
+
+.modal-input:focus {
+    border-color: var(--color-iris);
 }
 
 .is-hidden {
