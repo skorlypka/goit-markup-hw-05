@@ -586,6 +586,7 @@ footer {
 }
 
 .button-subscribe {
+    color: var(--color-white);
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -595,6 +596,14 @@ footer {
     background-color: var(--color-iris);
     border: none;
     border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.footer-form-icon {
+    margin-left: 16px;
+    fill: var(--color-white);
 }
 
 .section-team {
